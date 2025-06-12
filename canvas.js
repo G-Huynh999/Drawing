@@ -9,7 +9,7 @@ c.arc(948, 100, 50, 3.14, Math.PI * 2);
 c.stroke();
 c.fill();
 c.closePath();
-//TRIANGLES ROAD THINGS
+//TRIANGLES SIDE ROAD LINES
 c.fillStyle = "black";
 c.beginPath();
 c.moveTo(-150, 1000);
@@ -28,7 +28,7 @@ c.fill();
 //FLOOR
 c.fillStyle = "black";
 c.fillRect(0, 900, 2000, 100);
-//SIDE FENCE
+
 //FENCE
 c.fillStyle = "rgba(88, 85, 85, 0.9)";
 c.beginPath();
@@ -74,7 +74,7 @@ c.lineTo(2000, 745);
 c.lineTo(2000, 715);
 c.closePath();
 c.fill();
-//AHEAD
+//FILTER
 c.fillStyle = "rgb(105, 75, 255, 0.5)";
 c.fillRect(0, 0, 2000, 345);
 
